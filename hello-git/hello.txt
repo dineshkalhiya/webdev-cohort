@@ -1,0 +1,9 @@
+im v0
+
+now v4 after reset --hard 
+
+before connecting  to github
+
+now connected to github
+
+by by
