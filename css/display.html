@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+        h1 {
+            display: inline;
+        }
+
+        button {
+            display: block;
+        }
+
+        div {
+            border: 1px solid black;
+            padding: 2px;
+        }
+
+        .parent {
+            height: 180px;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            justify-content: start; /* main axix*/
+            align-items: starts; /* cross axix*/
+            /* justify-self: unset; */
+        }
+
+        .child {
+            width: 80px;
+            height: 30px;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* flex: 1; */
+        }
+        
+        #child-2 {
+            flex: 2;
+            /* order: 1; */
+        }
+
+        #child-4{
+            color: rgb(225, 50, 50);
+            /* order: 1; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <h1>Heading</h1>
+    <h1>heading</h1>
+    <h1>Heading</h1>
+
+    <button>click</button>
+    <button>click</button>
+    <button>click</button>
+    <br />
+
+    <div class="parent">
+        <div class="child">item 1</div>
+        <div id="child-2" class="child">item 2</div>
+        <div class="child">item 3</div>
+        <div  id="child-4" class="child">item 4</div>
+    </div>
+</body>
+
+</html>
